@@ -1,0 +1,35 @@
+# Credenciales
+*.env
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials/
+.config/
+.ssh/
+# Sesiones y datos privados
+*.session
+*.session-journal
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.db-*
+# Copias de seguridad
+*.backup
+*.backup_*
+*.bak
+*.bak_*
+*.old
+*.orig
+# Python y temporales
+__pycache__/
+*.py[cod]
+*.log
+.venv/
+venv/
+.pytest_cache/
+# Otros proyectos
+pacoalba/
+storage/
